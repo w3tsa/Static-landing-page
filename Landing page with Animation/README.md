@@ -1,1 +1,1 @@
-#A website that uses keaframes of pure CSS
+#A website that uses keyframes of pure CSS
