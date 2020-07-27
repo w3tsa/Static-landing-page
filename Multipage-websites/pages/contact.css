@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h3,
+li {
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1em;
+  letter-spacing: 0.2em;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  line-height: 1em;
+  letter-spacing: 0.1rem;
+}
+
+h4 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: bold;
+  margin: 0.3em;
+  cursor: pointer;
+}
+
+.brand {
+  text-decoration: none;
+  color: white;
+}
+
+p {
+  font-family: "Cormorant Garamond", serif;
+}
+
+header {
+  background-color: rgb(201, 187, 0);
+  height: 100vh;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+header h3 {
+  margin: 2rem;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40rem;
+  margin: 2rem;
+  list-style-type: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+}
+
+.donateBtn {
+  padding: 1.5em;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(201, 187, 0);
+}
+
+.donateBtn:hover {
+  opacity: 0.9;
+}
+
+.headline {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem;
+}
+
+.headlineText {
+  font-size: 64px;
+  margin-bottom: 40rem;
+  color: white;
+}
+
+.contactInfo {
+  margin-bottom: 25rem;
+  margin-right: 10rem;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 20rem;
+  width: 15rem;
+  color: white;
+}
+
+.aboutLink {
+  border-bottom: 1px solid white;
+  position: relative;
+  padding: 0.5em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  line-height: 2.5em;
+}
+
+.links a {
+  color: rgb(201, 187, 0);
+  margin: 0.5em;
+  font-size: large;
+  font-weight: 700;
+}
+
+.tradeMark a {
+  color: rgb(201, 187, 0);
+}
+
+.tradeMark {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  margin-bottom: 1em;
+}
+
+.social img {
+  margin: 0.5em;
+}
